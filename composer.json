@@ -1,0 +1,16 @@
+{
+    "name": "calin-nicolai/seedergen",
+    "description": "Laravel package for generating seeders",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "illuminate/database": "^8.0",
+        "fakerphp/faker": "^1.9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CalinNicolai\\SeederGen\\": "src/"
+        }
+    }
+}
