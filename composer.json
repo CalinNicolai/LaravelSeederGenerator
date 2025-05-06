@@ -12,5 +12,12 @@
         "psr-4": {
             "CalinNicolai\\SeederGen\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CalinNicolai\\SeederGen\\Providers\\SeederGenServiceProvider"
+            ]
+        }
     }
 }
